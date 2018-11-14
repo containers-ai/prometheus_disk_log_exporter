@@ -1,1 +1,11 @@
-# prometheus_disk_log_exporter
+Build docker
+   sh# make docker-image
+
+Install package:
+   sh# python setup.py install
+   sh# smart_exporter
+
+Support Environment:
+   - HOSTDEV_PATH=/dev 
+   - INTERVAL_TIME=10
+
